@@ -1,6 +1,6 @@
 package org.junit.experimental.max;
 
-/**
+/**11
  * Thrown when Max cannot read the MaxCore serialization
  */
 public class CouldNotReadCoreException extends Exception {
