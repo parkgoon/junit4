@@ -446,7 +446,12 @@
                         </reports>
                     </reportSet>
                 </reportSets>
-            </plugin>
+            </plugin>            
+	        <plugin>
+			        <groupId>org.apache.maven.plugins</groupId>
+			        <artifactId>maven-pmd-plugin</artifactId>
+			        <version>3.12.0</version>
+	        </plugin>        
         </plugins>
     </reporting>
 
